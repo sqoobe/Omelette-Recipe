@@ -1,0 +1,78 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  margin: auto;
+  width: 100%;
+  font-family: Outfit;
+}
+.white-bg {
+  margin: auto;
+  width: 40%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 50px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.div-img {
+  margin: auto;
+  width: 100%;
+}
+.omelette-img {
+  width: 100%;
+  border-radius: 25px;
+}
+p {
+  font-weight: 300;
+  display: inline-block;
+}
+.prep-box {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 1px;
+  margin: auto;
+}
+h2 {
+  font-size: 28px;
+  font-weight: 300;
+  color: hsl(14, 45%, 36%);
+}
+.prep-h2 {
+  color: hsl(332, 51%, 32%);
+  padding-left: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: Outfit;
+}
+.prep-text li {
+  padding-left: 45px;
+  padding-top: 8px;
+  padding-bottom: 1px;
+}
+.ingredients {
+  margin-left: 1px;
+}
+.ingredients li {
+  padding-left: 15px;
+  /* padding-bottom: 15px;
+  padding-top: 5px;
+  padding-right: 20px; */
+}
+/* INSTRUCTION  */
+.instructions li {
+  padding-left: 16px;
+  padding-right: 20px;
+}
+/* NUTRITION  */
+.nutrition-list li {
+  display: flex;
+  justify-content: space-between;
+  /* border-bottom: 2px solid grey; */
+  margin-inline: 20px 80px;
+}
+.nutrition-list li b {
+  color: hsl(14, 45%, 36%);
+}
+hr {
+  opacity: 30%;
+}
